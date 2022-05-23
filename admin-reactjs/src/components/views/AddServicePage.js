@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import AddService from "../service/AddService";
 import HeaderAddService from "../service/HeaderAddService";
 const AddServicePage = () => {

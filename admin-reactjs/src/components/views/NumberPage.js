@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import HeaderNumber from "../number/HeaderNumber";
 import NumberMain from "../number/NumberMain";
 

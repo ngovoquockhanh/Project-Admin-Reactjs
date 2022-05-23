@@ -1,5 +1,5 @@
 import imgnotify from "../../assets/images/iconnotify.png";
-import imguser from "../../assets/images/iconuser.png";
+import chandung from "../../assets/images/chandung.jpg";
 import { RightOutlined } from "@ant-design/icons";
 const HeaderService = () => {
   return (
@@ -18,16 +18,18 @@ const HeaderService = () => {
             <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
           </h2>
         </div>
-        <div className="headerdashboard-content">
-          <img src={imgnotify} alt="" className="imgnotify" />
-          <div className="headerdashboard-content-box">
-            <img src={imguser} alt="" className="imguser" />
-            <div className="infomation">
-              <h3 className="sub-label">Xin chào</h3>
-              <h4 className="label">lê quỳnh ái vân</h4>
-            </div>
+        <a class="profile-pic" href="/user">
+      <div className="headerdashboard-content">
+        <img src={imgnotify} alt="" className="imgnotify" />
+        <div className="headerdashboard-content-box">
+          <img src={chandung} alt="" className="imguser" />
+          <div className="infomation">
+            <h3 className="sub-label">Xin chào</h3>
+            <h4 className="label">Ngô Võ Quốc Khánh</h4>
           </div>
         </div>
+      </div>
+      </a>
       </section>
     </>
   );

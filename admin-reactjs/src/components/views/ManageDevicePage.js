@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";s
 import ManageDevice from "../device/ManageDevice";
 import HeaderManageDevice from "../device/HeaderManageDevice";
 const ManageDevicePage = () => {

@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import HeaderServiceDetail from "../service/HeaderServiceDetail";
 import ServiceDetail from "../service/ServiceDetail";
 const ServiceDetailPage = () => {

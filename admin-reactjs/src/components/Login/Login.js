@@ -1,11 +1,13 @@
+import React from 'react'
+import './style.css'
 import logo from "../../assets/images/Logoalta.png";
 import eyeClose from "../../assets/images/eye-close.png";
 import imgIntro from "../../assets/images/intro.png";
 import { Link } from "react-router-dom";
-const Login = () => {
+export default function index() {
   return (
     <>
-      <section className="login" id="login">
+    <section className="login" id="login">
         <div className="login-main">
           <div className="login-main-box">
             <img srcSet={logo} alt="" className="image" />
@@ -19,10 +21,10 @@ const Login = () => {
               <img src={eyeClose} alt="" className="icon" />
             </div>
             <button className="btn">
-              <Link to="/home">Đăng nhập</Link>
+              <Link to="/Menu">Đăng nhập</Link>
             </button>
 
-            <Link to="/forgotpass" className="forgotpass">
+            <Link to="/Forgotpassword" className="forgotpass">
               Quên mật khẩu?
             </Link>
           </div>
@@ -34,7 +36,6 @@ const Login = () => {
         </div>
       </section>
     </>
-  );
-};
-
-export default Login;
+  
+  )
+}

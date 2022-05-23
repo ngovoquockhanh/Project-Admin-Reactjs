@@ -1,5 +1,5 @@
 const ReportMain = () => {
-  return <>Hello from report</>;
+  return <>Xin Chào </>;
 };
 
 export default ReportMain;

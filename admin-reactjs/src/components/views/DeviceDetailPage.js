@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import HeaderDeviceDetail from "../device/HeaderDeviceDetail";
 import DeviceDetail from "../device/DeviceDetail";
 const DeviceDetailPage = () => {

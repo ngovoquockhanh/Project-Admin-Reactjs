@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import HeaderSetting from "../settings/HeaderSetting";
 import SettingMain from "../settings/SettingMain";
 

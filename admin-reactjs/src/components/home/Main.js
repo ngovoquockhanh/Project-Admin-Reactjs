@@ -1,13 +1,13 @@
-import user from "../../assets/images/user.png";
+import chandung from "../../assets/images/chandung.jpg";
 import iconcamera from "../../assets/images/iconcamera.png";
 const Main = () => {
   return (
     <>
       <section className="main" id="main">
         <div className="main-info">
-          <img src={user} alt="" className="user" />
+          <img src={chandung} alt="" className="imgusers" />
           <img src={iconcamera} alt="" className="imgcamera" />
-          <h4 className="label"> Ngô Võ Quốc Khánh</h4>
+          <h4 className="label">Ngô Võ Quốc Khánh</h4>
         </div>
         <div className="main-content">
           <div className="main-content-group">
@@ -17,7 +17,7 @@ const Main = () => {
             </div>
             <div className="main-content-group-box">
               <h5 className="label">Tên đăng nhập</h5>
-              <input type="text" placeholder="quockhanh123" />
+              <input type="text" placeholder="lequynhaivan01" />
             </div>
           </div>
           <div className="main-content-group">

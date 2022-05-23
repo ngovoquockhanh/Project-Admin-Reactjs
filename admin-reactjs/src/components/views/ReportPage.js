@@ -1,4 +1,4 @@
-import Menubar from "../MenuBar";
+import Menubar from "../../components/Menu/Menu";
 import HeaderReport from "../report/HeaderReport";
 import ReportMain from "../report/ReportMain";
 const ReportPage = () => {
