@@ -1,5 +1,6 @@
 import { MdModeEditOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const DeviceDetail = () => {
   let navigate = useNavigate();
   const handleClick = (e) => {
@@ -49,10 +50,14 @@ const DeviceDetail = () => {
             </div>
           </div>
           <div className="deviceDetail-container-function">
-            <button className="btn-update" onClick={(e) => handleClick(e)}>
+<NavLink to="/device/Update"
+            exact="true">
+<button className="btn-update" >
               <MdModeEditOutline />
               Cập nhật <br /> thiết bị
             </button>
+</NavLink>
+            
           </div>
         </div>
       </section>

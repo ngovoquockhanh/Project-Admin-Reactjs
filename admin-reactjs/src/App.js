@@ -11,6 +11,8 @@ import ServicePage from "./components/views/ServicePage";
 import AddServicePage from "./components/views/AddServicePage";
 import NumberPage from "./components/views/NumberPage";
 import ServiceDetailPage from "./components/views/ServiceDetailPage";
+import ManageDevicePage from "./components/views/ManageDevicePage";
+import Update from "./components/views/update";
 import ReportPage from "./components/views/ReportPage";
 import { Routes, Route } from "react-router-dom";
 
@@ -33,6 +35,8 @@ function App() {
           <Route path="/service/detail" element={<ServiceDetailPage />} />
           <Route path="/number" element={<NumberPage />} />
           <Route path="/report" element={<ReportPage />} />
+          <Route path="/device/manage" element={<ManageDevicePage />} />
+          <Route path="/device/Update" element={<Update />} />
         </Routes>
       </div>
     </div>

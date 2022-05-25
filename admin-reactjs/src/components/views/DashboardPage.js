@@ -1,7 +1,7 @@
 import Menubar from "../../components/Menu/Menu";
 import DashboardMain from "../dashboard/DashboardMain";
 import HeaderDashboard from "../dashboard/HeaderDashboard";
-import OverView from "../Overview";
+import OverView from "../Menu/Overview";
 const DashboardPage = () => {
   return (
   

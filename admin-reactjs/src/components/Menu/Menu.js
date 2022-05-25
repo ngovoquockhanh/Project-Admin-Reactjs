@@ -82,40 +82,14 @@ const Menubar = () => {
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
-            to="/"
+            to="/login"
             exact="true"
           >
             <img src={iconexit} alt="" className="iconexit" />
             Đăng xuất
           </NavLink>
 
-          {/* <div className="menubar-main-box">
-            <img src={icondevice} alt="" className="icondevice" />
-            <h3 className="title">Thiết bị</h3>
-          </div> */}
-          {/* <div className="menubar-main-box">
-            <img src={iconservice} alt="" className="iconservice" />
-            <h3 className="title">Dịch vụ</h3>
-          </div>
-          <div className="menubar-main-box">
-            <img src={iconnumber} alt="" className="iconnumber" />
-            <h3 className="title">Cấp số</h3>
-          </div>
-          <div className="menubar-main-box">
-            <img src={iconreport} alt="" className="iconreport" />
-            <h3 className="title">Báo cáo</h3>
-          </div>
-          <div className="menubar-main-box">
-            <img src={iconsetting} alt="" className="iconsetting" />
-            <h3 className="title">Cài đặt hệ thống</h3>
-            <img src={iconmore} alt="" className="iconmore" />
-          </div>
-          <div className="menubar-main-box">
-            <img src={iconexit} alt="" className="iconexit" />
-            <Link to="/" className="btn-exit">
-              Đăng xuất
-            </Link>
-          </div> */}
+        
         </div>
       </section>
     </>

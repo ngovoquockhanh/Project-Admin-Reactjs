@@ -1,6 +1,8 @@
 import imgnotify from "../../assets/images/iconnotify.png";
 import chandung from "../../assets/images/chandung.jpg";
 import { RightOutlined } from "@ant-design/icons";
+import { NavLink } from "react-router-dom";
+
 const HeaderServiceDetail = () => {
   return (
     <>
@@ -15,7 +17,9 @@ const HeaderServiceDetail = () => {
                 padding: "0 1rem",
               }}
             />
-            <span style={{ color: "#7e7d88" }}>Danh sách dịch vụ</span>
+             <NavLink to='/service'>
+            <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
+            </NavLink>
             <RightOutlined
               style={{
                 color: "#d4d4d7",

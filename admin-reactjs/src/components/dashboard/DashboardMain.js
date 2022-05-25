@@ -5,12 +5,16 @@ import iconred from "../../assets/images/iconred.png";
 import iconup from "../../assets/images/iconup.png";
 import icondown from "../../assets/images/icondown.png";
 import DashboardDay from "./DashboarDay";
+import { Link, NavLink } from "react-router-dom";
 const DashboardMain = () => {
   return (
     <>
       <section className="dashboardmain" id="dashboardmain">
         <div className="dashboardmain-container">
           <h2 className="title">Biểu đồ cấp số</h2>
+          <NavLink    to="/number"
+            exact="true">
+            
           <div className="dashboardmain-container-box">
             <div className="content">
               <img src={iconblue} alt="" className="imgicon" />
@@ -26,6 +30,9 @@ const DashboardMain = () => {
               </p>
             </div>
           </div>
+              </NavLink>
+          <NavLink   to="/number"
+            exact="true">
           <div className="dashboardmain-container-box">
             <div className="content">
               <img src={icongreen} alt="" className="imgicon" />
@@ -41,6 +48,9 @@ const DashboardMain = () => {
               </p>
             </div>
           </div>
+          </NavLink>
+          <NavLink to="/number"
+            exact="true">
           <div className="dashboardmain-container-box">
             <div className="content">
               <img src={iconorange} alt="" className="imgicon" />
@@ -56,7 +66,10 @@ const DashboardMain = () => {
               </p>
             </div>
           </div>
-          <div className="dashboardmain-container-box">
+          </NavLink>
+        <NavLink to="/number"
+            exact="true">
+        <div className="dashboardmain-container-box">
             <div className="content">
               <img src={iconred} alt="" className="imgicon" />
               <p className="heading">
@@ -71,6 +84,8 @@ const DashboardMain = () => {
               </p>
             </div>
           </div>
+        </NavLink>
+        
           <DashboardDay />
         </div>
       </section>

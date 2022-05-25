@@ -1,6 +1,7 @@
 .deviceDetail {
   &-container {
     position: relative;
+    width: 93%;
     .title {
       @include text(2.4rem);
       font-weight: 700;
@@ -29,6 +30,7 @@
           flex-direction: column;
           width: 100%;
         }
+       
         .sub-heading {
           width: 25%;
           font-size: 1.6rem;
@@ -44,6 +46,7 @@
         }
       }
     }
+   
     &-function {
       .btn-update {
         position: absolute;

@@ -1,10 +1,13 @@
-import percen90 from "../assets/images/percen90.png";
-import percen76 from "../assets/images/percen76.png";
-import percen86 from "../assets/images/percen86.png";
-import iconsmalldevice from "../assets/images/iconsmalldevice.png";
-import iconsmallservice from "../assets/images/iconsmallservice.png";
-import iconsmallnumber from "../assets/images/iconsmallnumber.png";
+import percen90 from "../../assets/images/percen90.png";
+import percen76 from "../../assets/images/percen76.png";
+import percen86 from "../../assets/images/percen86.png";
+import iconsmalldevice from "../../assets/images/iconsmalldevice.png";
+import iconsmallservice from "../../assets/images/iconsmallservice.png";
+import iconsmallnumber from "../../assets/images/iconsmallnumber.png";
+import chandung from "../../assets/images/chandung.jpg";
+import imgnotify from "../../assets/images/iconnotify.png";
 import DatePicker from "sassy-datepicker";
+import { Link, NavLink } from "react-router-dom";
 const OverView = () => {
   const onChange = (date) => {
     console.log(date.toString());
@@ -13,30 +16,49 @@ const OverView = () => {
     <>
       <section className="overview" id="overview">
         <div className="overview-container">
-          <h2 className="title">Tổng quan</h2>
-          <div className="overview-container-main">
-            <div className="overview-container-main-box">
-              <div className="image">
-                <img src={percen90} alt="" className="imgpercent" />
-              </div>
-              <div className="parameter">
-                <h3>4.221</h3>
-                <div>
-                  <img src={iconsmalldevice} alt="" className="icondevice" />
-                  <span className="sub-param">Thiết bị</span>
-                </div>
-              </div>
-            </div>
-            <div className="overview-container-main-box column">
-              <li className="yello">
-                <p>Đang hoạt động</p> <span>3.799</span>
-              </li>
-              <li className="gray">
-                <p>Ngưng hoạt động</p> <span>422</span>
-              </li>
-            </div>
+        <NavLink class="profile-pic"   to="/user"
+            exact="true">
+      <div className="headerdashboard-content">
+        <img src={imgnotify} alt="" className="imgnotify" />
+        <div className="headerdashboard-content-box">
+          <img src={chandung} alt="" className="imguser" />
+          <div className="infomation">
+            <h3 className="sub-label">Xin chào</h3>
+            <h4 className="label">Ngô Võ Quốc Khánh</h4>
           </div>
+        </div>
+      </div>
+      </NavLink >
+          <h2 className="title">Tổng quan</h2>
+          <NavLink   to="/device"
+            exact="true">
           <div className="overview-container-main">
+         
+         <div className="overview-container-main-box">
+           <div className="image">
+             <img src={percen90} alt="" className="imgpercent" />
+           </div>
+           <div className="parameter">
+             <h3>4.221</h3>
+             <div>
+               <img src={iconsmalldevice} alt="" className="icondevice" />
+               <span className="sub-param">Thiết bị</span>
+             </div>
+           </div>
+         </div>
+         <div className="overview-container-main-box column">
+           <li className="yello">
+             <p>Đang hoạt động</p> <span>3.799</span>
+           </li>
+           <li className="gray">
+             <p>Ngưng hoạt động</p> <span>422</span>
+           </li>
+         </div>
+       </div>  
+                  </NavLink>
+        <NavLink to="/service"
+            exact="true">
+        <div className="overview-container-main">
             <div className="overview-container-main-box">
               <div className="image">
                 <img src={percen76} alt="" className="imgpercent" />
@@ -58,6 +80,9 @@ const OverView = () => {
               </li>
             </div>
           </div>
+        </NavLink>
+          <NavLink to="/number"
+            exact="true">
           <div className="overview-container-main">
             <div className="overview-container-main-box">
               <div className="image">
@@ -83,6 +108,8 @@ const OverView = () => {
               </li>
             </div>
           </div>
+          </NavLink>
+      
 
           <div className="overview-container-datepicker">
             <DatePicker onChange={onChange} />

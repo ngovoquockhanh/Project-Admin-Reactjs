@@ -1,5 +1,5 @@
-import icondropdown from "../../assets/images/icondropdown.png";
 import { NavLink } from "react-router-dom";
+import icondropdown from "../../assets/images/icondropdown.png";
 const ManageDevice = () => {
   return (
     <>
@@ -58,7 +58,9 @@ const ManageDevice = () => {
                 <h5 className="sub-heading">
                   Dịch vụ sử dụng: <span>*</span>
                 </h5>
-                <input type="text" placeholder="Nhập dịch vụ sử dụng" />
+                
+                <input className="" type="text" placeholder="Khám tim mạch, Khám sản- Phụ khoa, Khám răng hàm mặt, Khám tai
+                  mũi họng, Khám tổng quát, Khám bao quát." />
               </div>
             </div>
             <div className="manageDevice-container-main-note">
@@ -68,11 +70,14 @@ const ManageDevice = () => {
           </div>
           <NavLink to='/device' exact='true'>
           <div className="function">
-            <button className="btn-cancel">Hủy bỏ</button>
-            <button className="btn">Thêm thiết bị</button>
+
+           <button  className="btn-cancel">Hủy bỏ</button>
+
+            <button className="btn">Cập nhật</button>
           </div>
-          </NavLink>
+          </NavLink> 
         </div>
+
       </section>
     </>
   );

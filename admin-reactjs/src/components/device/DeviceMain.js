@@ -2,6 +2,7 @@ import icondropdown from "../../assets/images/icondropdown.png";
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusSquare } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import { Pagination } from "antd";
 const DeviceMain = () => {
@@ -19,6 +20,7 @@ const DeviceMain = () => {
     <>
       <section className="devicemain">
         <div className="devicemain-container">
+          
           <h2 className="title">Danh sách thiết bị</h2>
           <div className="flex-box">
             <div className="devicemain-container-box">
@@ -131,7 +133,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -172,7 +177,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -213,7 +221,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -254,7 +265,11 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
+
                     </td>
                   </tr>
                 </tbody>
@@ -295,7 +310,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                         <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -336,7 +354,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -376,8 +397,10 @@ const DeviceMain = () => {
                     </td>
                   </tr>
                   <tr className="col8">
-                    <td>
-                      <a href="">Cập nhật</a>
+                    <td>    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -418,7 +441,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -459,7 +485,10 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/device/Update"
+            exact="true">
+                     Cập nhật
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>

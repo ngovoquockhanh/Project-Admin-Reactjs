@@ -1,6 +1,7 @@
 import imgnotify from "../../assets/images/iconnotify.png";
 import chandung from "../../assets/images/chandung.jpg";
 import { RightOutlined } from "@ant-design/icons";
+import { NavLink } from "react-router-dom";
 const HeaderManageDevice = () => {
   return (
     <>
@@ -15,7 +16,10 @@ const HeaderManageDevice = () => {
                 padding: "0 1rem",
               }}
             />
+           <NavLink to="/device"
+            exact="true" >
             <span style={{ color: "#7e7d88" }}>Danh sách thiết bị</span>
+            </NavLink>
             <RightOutlined
               style={{
                 color: "#d4d4d7",
@@ -26,7 +30,8 @@ const HeaderManageDevice = () => {
             <span style={{ color: "#ff9138" }}>Thêm thiết bị</span>
           </h2>
         </div>
-        <a class="profile-pic" href="/user">
+        <NavLink class="profile-pic"   to="/user"
+            exact="true">
       <div className="headerdashboard-content">
         <img src={imgnotify} alt="" className="imgnotify" />
         <div className="headerdashboard-content-box">
@@ -37,7 +42,7 @@ const HeaderManageDevice = () => {
           </div>
         </div>
       </div>
-      </a>
+      </NavLink >
       </section>
     </>
   );

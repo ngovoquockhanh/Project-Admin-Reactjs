@@ -1,6 +1,6 @@
 import Menubar from "../../components/Menu/Menu";
-import Header from "../home/Header";
-import Main from "../home/Main";
+import Header from "../User/Header";
+import Main from "../User/Main";
 
 const HomePage = () => {
   return (

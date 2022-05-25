@@ -1,5 +1,5 @@
 import Menubar from "../../components/Menu/Menu";
-import ManageDevice from "../device/ManageDevice";
+import Update from "../device/Update";
 import HeaderManageDevice from "../device/HeaderManageDevice";
 const ManageDevicePage = () => {
   return (
@@ -8,7 +8,7 @@ const ManageDevicePage = () => {
         <Menubar />
         <main className="main-wrap">
           <HeaderManageDevice />
-          <ManageDevice />
+          <Update />
         </main>
       </div>
     </>
