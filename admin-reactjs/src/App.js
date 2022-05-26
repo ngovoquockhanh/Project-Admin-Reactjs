@@ -13,7 +13,12 @@ import NumberPage from "./components/views/NumberPage";
 import ServiceDetailPage from "./components/views/ServiceDetailPage";
 import ManageDevicePage from "./components/views/ManageDevicePage";
 import Update from "./components/views/update";
+import SettingPage from "./components/views/SettingPage";
+import AddRolePage from "./components/views/AddRolePage";
+import ManageUserPage from "./components/views/ManageUserPage";
 import ReportPage from "./components/views/ReportPage";
+import AddUserPage from "./components/views/AddUserPage";
+import HistoryUserPage from "./components/views/HistoryUserPage";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -37,6 +42,11 @@ function App() {
           <Route path="/report" element={<ReportPage />} />
           <Route path="/device/manage" element={<ManageDevicePage />} />
           <Route path="/device/Update" element={<Update />} />
+          <Route path="/manage-role" element={<SettingPage />} />
+          <Route path="/add/manage-role" element={<AddRolePage />} />
+          <Route path="/manage-user" element={<ManageUserPage />} />
+          <Route path="/add/manage-user" element={<AddUserPage />} />
+          <Route path="/history" element={<HistoryUserPage />} />
         </Routes>
       </div>
     </div>

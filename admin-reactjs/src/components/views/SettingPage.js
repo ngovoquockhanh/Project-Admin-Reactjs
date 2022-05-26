@@ -1,6 +1,6 @@
 import Menubar from "../../components/Menu/Menu";
-import HeaderSetting from "../settings/HeaderSetting";
-import SettingMain from "../settings/SettingMain";
+import HeaderSetting from "../../components/settings/manageRole/HeaderSetting";
+import SettingMain from "../../components/settings/manageRole/SettingMain";
 
 const SettingPage = () => {
   return (

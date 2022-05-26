@@ -69,14 +69,47 @@ const Menubar = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? "menubar-main-box active" : "menubar-main-box"
+              isActive
+                ? "menubar-main-box active setting"
+                : "menubar-main-box setting"
             }
-            to="/setting"
+            to="/manage-role"
             exact="true"
           >
             <img src={iconsetting} alt="" className="iconsetting" />
             Cài đặt hệ thống
             <img src={iconmore} alt="" className="iconmore" />
+            <div className="navigation">
+              <ul>
+                <li>
+                  <NavLink
+                    className={({ isActive }) => (isActive ? "active " : "")}
+                    to="/manage-role"
+                    exact="true"
+                  >
+                    Quản lý vai trò
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) => (isActive ? "active " : "")}
+                    to="/manage-user"
+                    exact="true"
+                  >
+                    Quản lý tài khoản
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) => (isActive ? "active " : "")}
+                    to="/history"
+                    exact="true"
+                  >
+                    Nhật ký hoạt động
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
           </NavLink>
           <NavLink
             className={({ isActive }) =>
