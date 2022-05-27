@@ -8,7 +8,7 @@ const HeaderReport = () => {
         <div className="headerdashboard-main">
           <h2>Báo cáo</h2>
         </div>
-        <a class="profile-pic" href="/user">
+        <a className="profile-pic" href="/user">
       <div className="headerdashboard-content">
         <img src={imgnotify} alt="" className="imgnotify" />
         <div className="headerdashboard-content-box">

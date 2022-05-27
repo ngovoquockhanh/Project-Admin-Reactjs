@@ -16,7 +16,7 @@ const OverView = () => {
     <>
       <section className="overview" id="overview">
         <div className="overview-container">
-        <NavLink class="profile-pic"   to="/user"
+        <NavLink className="profile-pic"   to="/user"
             exact="true">
       <div className="headerdashboard-content">
         <img src={imgnotify} alt="" className="imgnotify" />

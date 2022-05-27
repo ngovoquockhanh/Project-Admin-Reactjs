@@ -20,7 +20,7 @@ const HeaderHistoryUser = () => {
             <span style={{ color: "#ff9138" }}>Nhật ký hoạt động</span>
           </h2>
         </div>
-        <NavLink class="profile-pic"   to="/user"
+        <NavLink className="profile-pic"   to="/user"
             exact="true">
       <div className="headerdashboard-content">
         <img src={imgnotify} alt="" className="imgnotify" />

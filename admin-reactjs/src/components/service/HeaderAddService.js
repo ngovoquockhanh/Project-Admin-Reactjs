@@ -29,7 +29,7 @@ const HeaderAddService = () => {
             <span style={{ color: "#ff9138" }}>Thêm dịch vụ</span>
           </h2>
         </div>
-        <a class="profile-pic" href="/user">
+        <a className="profile-pic" href="/user">
       <div className="headerdashboard-content">
         <img src={imgnotify} alt="" className="imgnotify" />
         <div className="headerdashboard-content-box">
