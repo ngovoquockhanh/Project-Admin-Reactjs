@@ -1,6 +1,6 @@
 import icondropdown from "../../assets/images/icondropdown.png";
 import imgchart from "../../assets/images/imgchart.png";
-import imgchart1 from "../../assets/images/imgchart1.png";
+
 import iconselect from "../../assets/images/iconselect.png";
 import { useState } from "react";
  
@@ -107,12 +107,13 @@ const DashboardDay = () => {
               <div className="dashboardDay-container-content-box">
                 <p>0</p>
               </div>
-              <img src={imgchart} alt="" className="imgchart" />
-              <div className="info">
+              <img src={imgchart} alt="" className="imgchart1" />
+              <div className="info-1">
                 <button>4.221</button>
                 <img src={iconselect} alt="" className="iconselect" />
               </div>
               <div className="dashboardDay-container-content-subbox">
+          
                 <p className="col1">Tuần 1</p>
                 <p className="col2">Tuần 2</p>
                 <p className="col3">Tuần 3</p>
@@ -128,7 +129,7 @@ const DashboardDay = () => {
                    {option === "month" && (
             <div className="dashboardDay-container-content">
             <p className="statistics" >Bảng thống kê theo Tháng</p>
-              <p>Tháng 11/2021</p>
+              <p>Năm 2021</p>
               <div className="dashboardDay-container-content-box">
                 <p>6000</p>
               </div>
@@ -156,10 +157,14 @@ const DashboardDay = () => {
                 <img src={iconselect} alt="" className="iconselect" />
               </div>
               <div className="dashboardDay-container-content-subbox">
-                <p className="col1">01</p>
-                <p className="col2">13</p>
-                <p className="col3">19</p>
-                <p className="col4">31</p>
+                <p className="col5">01</p>
+                <p className="col6 ">02</p>
+                <p className="col7">03</p>
+                <p className="col8">04</p>
+                <p className="col9">05</p>
+                <p className="col0">06</p>
+                <p className="col1">07</p>
+                <p className="col2">08</p>
               </div>
               <div className="param">
                 <span>sl</span>

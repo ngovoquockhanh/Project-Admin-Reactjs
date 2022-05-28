@@ -1,4 +1,10 @@
 .servicemain {
+  .servicemain-container-box{
+ margin-right: -1%;
+  }
+  .servicemain-container-table{
+    width: 1060px;
+  }
   position: relative;
   &-container {
     .title {
@@ -84,7 +90,9 @@
         color: $gray-400;
         cursor: pointer;
       }
+     
       .search {
+
         position: relative;
         input {
           position: inherit;
@@ -267,6 +275,7 @@
       top: 21%;
       right: -5.7%;
       .btn-add {
+        margin-right: 320%;
         width: 100%;
         max-width: 8rem;
         display: flex;

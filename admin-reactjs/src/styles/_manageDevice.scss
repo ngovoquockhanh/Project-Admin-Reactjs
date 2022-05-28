@@ -1,4 +1,83 @@
 .manageDevice {
+.extra1{
+ 
+  margin-top:10%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+  .extra{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+position:relative;
+width: 182px;
+height: 28px;
+left: 17%;
+top: -23%;
+background: #FFAC6A;
+box-shadow: 0px 0px 6px #E7E9F2;
+border-radius: 9px;
+  }
+  .Exploring1{
+    width: 101px;
+height: 19px;
+margin-top:12%;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .Exploring{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+position:relative;
+width: 155px;
+height: 28px;
+left: 20px;
+top: 10px;
+background: #FFAC6A;
+box-shadow: 0px 0px 6px #E7E9F2;
+border-radius: 9px;
+  }
+  .Use-service{
+    
+    border: 1.5px solid #FFAC6A;
+
+  }
+  #example1 {
+    width: 1104px;
+     height: 80px;
+    background: #FFFFFF;
+    border: 1.5px solid #FFAC6A;
+    border-radius: 8px;
+  }
+
+  #KIO{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 270px 10px 12px;
+    gap: 10px;
+    width: 540px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
   &-container {
     .title {
       @include text(2.4rem);

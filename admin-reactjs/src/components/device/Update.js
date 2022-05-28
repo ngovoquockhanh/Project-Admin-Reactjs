@@ -11,56 +11,72 @@ const ManageDevice = () => {
             <div className="flex-box">
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
-                  Mã thiết bị: <span>*</span>
-                </h5>
-                <input type="text" placeholder="Nhập mã thiết bị" />
-              </div>
-              <div className="manageDevice-container-main-box">
-                <h5 className="sub-heading">
                   Loại thiết bị: <span>*</span>
                 </h5>
                 <div className="dropdown">
-                  <div className="dropdown-select">
-                    <span className="select">Chọn loại thiết bị</span>
-                    <img src={icondropdown} alt="" />
-                  </div>
-                  <div className="dropdown-list">
-                    <div className="dropdown-list__item">Kiosk</div>
-                    <div className="dropdown-list__item">Display couter</div>
-                  </div>
+                  <select className="dropdown-select">
+                    <option className="dropdown-list__item">Kiosk</option>
+                    <option className="dropdown-list__item">
+                      Display couter
+                    </option>
+                  </select>
                 </div>
               </div>
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
                   Mã thiết bị: <span>*</span>
                 </h5>
-                <input type="text" placeholder="Nhập mã thiết bị" />
+                <div id="KIO">
+                  <p>KIO-01</p>
+                </div>
               </div>
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
                   Tên thiết bị: <span>*</span>
                 </h5>
-                <input type="text" placeholder="Nhập tên thiết bị" />
+
+                <div id="KIO">
+                  <p>KIOSK</p>
+                </div>
               </div>
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
                   Tên đăng nhập: <span>*</span>
                 </h5>
-                <input type="text" placeholder="Nhập tên tài khoản" />
+
+                <div id="KIO">
+                  <p>Linhky001</p>
+                </div>
+              </div>
+              <div className="manageDevice-container-main-box">
+                <h5 className="sub-heading">
+                  Mật Khẩu: <span>*</span>
+                </h5>
+
+                <div id="KIO">
+                  <p>CMS</p>
+                </div>
               </div>
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
                   Địa chỉ IP: <span>*</span>
                 </h5>
-                <input type="text" placeholder="Nhập địa chỉ IP" />
+                <div id="KIO">
+                  <p>128.172.389</p>
+                </div>
               </div>
               <div className="manageDevice-container-main-box">
                 <h5 className="sub-heading">
                   Dịch vụ sử dụng: <span>*</span>
                 </h5>
-                
-                <input className="" type="text" placeholder="Khám tim mạch, Khám sản- Phụ khoa, Khám răng hàm mặt, Khám tai
-                  mũi họng, Khám tổng quát, Khám bao quát." />
+                <div id="example1">
+                  <a className="Exploring">
+             <p className="Exploring1">Khám tim mạch</p>
+                  </a>
+                  <a className="extra">
+             <p className="extra1">Khám sản phụ khoa</p>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="manageDevice-container-main-note">
@@ -68,16 +84,14 @@ const ManageDevice = () => {
               <h3 className="sub-note">Là trường thông tin bắt buộc</h3>
             </div>
           </div>
-          <NavLink to='/device' exact='true'>
-          <div className="function">
+          <NavLink to="/device" exact="true">
+            <div className="function">
+              <button className="btn-cancel">Hủy bỏ</button>
 
-           <button  className="btn-cancel">Hủy bỏ</button>
-
-            <button className="btn">Cập nhật</button>
-          </div>
-          </NavLink> 
+              <button className="btn">Cập nhật</button>
+            </div>
+          </NavLink>
         </div>
-
       </section>
     </>
   );
