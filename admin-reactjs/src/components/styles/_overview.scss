@@ -1,3 +1,4 @@
+
 .overview {
   position: absolute;
 width: 401px;
@@ -7,6 +8,146 @@ top: 0px;
 background: #FFFFFF;
 box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
 border-radius: 8px 0px 0px 8px;
+.imgnotify{
+  margin-left: 300px;
+}
+.drw{
+  width: 30rem;
+  position: relative;
+  &-select {
+    background-color: $white;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+    border: 0.15rem solid $gray-100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .select {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: $gray-300;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 1.2rem;
+      max-height: 0.6rem;
+      object-fit: cover;
+    }
+  }
+  &-list {
+    border-radius: 0.4rem;
+    background-color: $white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+    transform: translateY(10px);
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 1rem;
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-100%);
+    }
+  }
+}
+.Notify{
+  position: absolute;
+width: 360px;
+height: 48px;
+left: 0px;
+top: 0px;
+background: #FF9138;
+}
+.Notify-1{
+  position: absolute;
+width: 101px;
+height: 30px;
+left: 24px;
+top: 9px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.Notify-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 360px;
+  height: 400px;
+  left: 0px;
+  top: 48px;
+  background: #FFFFFF;
+
+}
+.Line{
+  margin-top: 20%;
+  margin-left: 5%;
+}
+.Line-1{
+
+  margin-left: 5%;
+}
+.user-name-1{
+
+  width: 268px;
+  height: 24px;
+  margin-left: 24px;
+  top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BF5805;
+}
+.time-number-1{
+
+width: 313px;
+height: 24px;
+margin-left: 24px;
+top: 44px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #535261;
+}
+.time-number{
+  position: absolute;
+width: 313px;
+height: 24px;
+left: 24px;
+top: 44px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #535261;
+}
+.user-name{
+  position: absolute;
+width: 268px;
+height: 24px;
+left: 24px;
+top: 16px;
+font-size: 16px;
+line-height: 24px;
+color: #BF5805;
+}
+
   .title {
     @include text(2.4rem);
     font-weight: 700;

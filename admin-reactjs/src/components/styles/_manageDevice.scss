@@ -1,4 +1,73 @@
 .manageDevice {
+  .shout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 186px;
+    height: 28px;
+    margin-left: 72%;
+    margin-top:-2.6%;
+    background: #FFAC6A;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 9px;
+  
+  }
+  .shout1{
+    margin-top:8%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+  }
+  .ears{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 186px;
+    height: 28px;
+    margin-left: 54%;
+    margin-top:-2.6%;
+    background: #FFAC6A;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 9px;
+  }
+  .ears1{
+    margin-top:8%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .visit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 186px;
+    height: 28px;
+    margin-left: 35%;
+    margin-top:-4%;
+    background: #FFAC6A;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 9px;
+
+  }
+  .visit1{
+    margin-top:8%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 .extra1{
  
   margin-top:10%;

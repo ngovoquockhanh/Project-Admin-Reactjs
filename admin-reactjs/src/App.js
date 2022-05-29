@@ -1,4 +1,4 @@
-import "./styles/app.scss";
+import "./components/styles/app.scss";
 import Login from './components/Login/Login';
 import Forgotpassword from './components/Forgotpassword/Forgotpassword';
 import Resetnewpassword from './components/Reset new password/Resetnewpassword';
