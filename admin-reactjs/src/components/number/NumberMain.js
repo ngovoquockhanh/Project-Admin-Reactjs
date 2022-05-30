@@ -1,7 +1,7 @@
 import icondropdown from "../../assets/images/icondropdown.png";
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusSquare } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { DatePicker, Space } from "antd";
 import { FaCaretRight } from "react-icons/fa";
 import moment from "moment";
@@ -175,7 +175,143 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
+              
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody className="active">
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="green">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                  <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="red">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                  <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
+                  </tr>
+                </tbody>
+                <tbody className="active">
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="green">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                    <td>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
+                    </td>
+              
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="red">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                    <td>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -207,7 +343,9 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Chi tiết</a>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -239,7 +377,9 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Chi tiết</a>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -271,7 +411,9 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Chi tiết</a>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -303,135 +445,9 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <a href="">Chi tiết</a>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody className="active">
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="green">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                      <a href="">Chi tiết</a>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="red">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                      <a href="">Chi tiết</a>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody className="active">
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="green">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                      <a href="">Chi tiết</a>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="red">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                      <a href="">Chi tiết</a>
+                    <NavLink to="/number/numberDetail">
+                      Chi tiết
+                      </NavLink>
                     </td>
                   </tr>
                 </tbody>

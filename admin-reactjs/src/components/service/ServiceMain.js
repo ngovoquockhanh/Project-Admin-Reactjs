@@ -2,7 +2,7 @@ import React from "react";
 import icondropdown from "../../assets/images/icondropdown.png";
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusSquare } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { DatePicker, Space } from "antd";
 import { FaCaretRight } from "react-icons/fa";
 import moment from "moment";
@@ -137,7 +137,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -167,7 +167,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -197,7 +197,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -227,7 +227,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -257,7 +257,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -287,7 +287,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -317,7 +317,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -347,7 +347,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -377,7 +377,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>

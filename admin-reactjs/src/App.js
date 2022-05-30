@@ -19,6 +19,8 @@ import ManageUserPage from "./components/views/ManageUserPage";
 import ReportPage from "./components/views/ReportPage";
 import AddUserPage from "./components/views/AddUserPage";
 import HistoryUserPage from "./components/views/HistoryUserPage";
+import UpdateService from "./components/views/UpdateService";
+import NumberDetail from "./components/views/NumberDetail"
 import { Routes, Route } from "react-router-dom";
 
 
@@ -47,6 +49,8 @@ function App() {
           <Route path="/manage-user" element={<ManageUserPage />} />
           <Route path="/add/manage-user" element={<AddUserPage />} />
           <Route path="/history" element={<HistoryUserPage />} />
+          <Route path="/service/updateService" element={<UpdateService />} />
+          <Route path="/number/numberDetail" element={<NumberDetail />} />
         </Routes>
       </div>
     </div>
