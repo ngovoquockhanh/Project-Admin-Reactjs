@@ -1,6 +1,6 @@
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusSquare } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const SettingMain = () => {
   let navigate = useNavigate();
@@ -61,7 +61,10 @@ const SettingMain = () => {
                   </tr>
                   <tr className="col4">
                     <td>
-                      <a href="">Cập nhật</a>
+                      <NavLink to="/manage-role/detail">
+                      Cập nhật
+                      </NavLink>
+ 
                     </td>
                   </tr>
                 </tbody>

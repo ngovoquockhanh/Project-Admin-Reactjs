@@ -1,18 +1,18 @@
 import Menubar from "../../components/Menu/Menu";
-import HeaderDetail from "../../components/number/HeaderDetail";
-import NumberDetail from "../../components/number/NumberDetail";
-const DeviceDetailPage = () => {
+import UserDetail from "../settings/manageUser/UserDetail";
+import HeaderDetail from "../settings/manageUser/HeaderDetail";
+const AddUserPage = () => {
   return (
     <>
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap">
           <HeaderDetail />
-          <NumberDetail />
+          <UserDetail />
         </main>
       </div>
     </>
   );
 };
 
-export default DeviceDetailPage;
+export default AddUserPage;

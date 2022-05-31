@@ -455,10 +455,13 @@ const NumberMain = () => {
             </div>
           </div>
           <div className="numbermain-container-function">
-            <button className="btn-add" onClick={(e) => handleClick(e)}>
+            <NavLink to="/number/add">
+            <button className="btn-add" >
               <AiFillPlusSquare />
               Cấp <br /> số mới
             </button>
+            </NavLink>
+          
           </div>
           <div className="numbermain-container-pagination">
             <Pagination defaultCurrent={1} total={100} />

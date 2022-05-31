@@ -1,18 +1,18 @@
 import Menubar from "../../components/Menu/Menu";
-import HeaderDetail from "../../components/number/HeaderDetail";
-import NumberDetail from "../../components/number/NumberDetail";
-const DeviceDetailPage = () => {
+import HeaderDetail from "../settings/manageRole/HeaderDetail";
+import RoleDetail from "../settings/manageRole/RoleDetail";
+const AddRolePage = () => {
   return (
     <>
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap">
           <HeaderDetail />
-          <NumberDetail />
+          <RoleDetail />
         </main>
       </div>
     </>
   );
 };
 
-export default DeviceDetailPage;
+export default AddRolePage;

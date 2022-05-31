@@ -1,14 +1,14 @@
-import imgnotify from "../../assets/images/iconnotify.png";
-import chandung from "../../assets/images/chandung.jpg";
+import imgnotify from "../../../assets/images/iconnotify.png";
+import chandung from "../../../assets/images/chandung.jpg";
+import { Link, NavLink } from "react-router-dom";
 import { RightOutlined } from "@ant-design/icons";
-import { NavLink } from "react-router-dom";
-const HeaderAddService = () => {
+const HeaderAddUser = () => {
   return (
     <>
       <section className="headerdashboard" id="headerdashboard">
         <div className="headerdashboard-main">
           <h2 style={{ color: "#7e7d88" }}>
-            Dịch vụ
+            Cài đặt hệ thống
             <RightOutlined
               style={{
                 color: "#d4d4d7",
@@ -16,9 +16,10 @@ const HeaderAddService = () => {
                 padding: "0 1rem",
               }}
             />
-             <NavLink to='/service'>
-            <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
+            <NavLink to="/manage-user">
+            <span style={{ color: "#7e7d88" }}>Quản lý tài khoản</span>
             </NavLink>
+
             <RightOutlined
               style={{
                 color: "#d4d4d7",
@@ -26,25 +27,25 @@ const HeaderAddService = () => {
                 padding: "0 1rem",
               }}
             />
-            <span style={{ color: "#ff9138" }}>Thêm dịch vụ</span>
+            <span style={{ color: "#ff9138" }}>Cập nhật tài khoản</span>
           </h2>
         </div>
-    
-        <div className="headerdashboard-content">
-        <img src={imgnotify} alt="" className="imgnotify" />
-        <NavLink className="headerdashboard-content-box"  to="/user"
+        <NavLink className="profile-pic"   to="/user"
             exact="true">
+      <div className="headerdashboard-content">
+        <img src={imgnotify} alt="" className="imgnotify" />
+        <div className="headerdashboard-content-box">
           <img src={chandung} alt="" className="imguser" />
           <div className="infomation">
             <h3 className="sub-label">Xin chào</h3>
             <h4 className="label">Ngô Võ Quốc Khánh</h4>
           </div>
-          </NavLink >
+        </div>
       </div>
-
+      </NavLink >
       </section>
     </>
   );
 };
 
-export default HeaderAddService;
+export default HeaderAddUser;

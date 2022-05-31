@@ -1,5 +1,5 @@
 import Menubar from "../../components/Menu/Menu";
-import HeaderService from "../../components/service/HeaderService";
+import HeaderUpdate from "../../components/service/HeaderUpdate";
 import UpdateService from "../../components/service/UpdateService";
 
 const ServicePage = () => {
@@ -8,7 +8,7 @@ const ServicePage = () => {
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap">
-          <HeaderService />
+          <HeaderUpdate />
           <UpdateService />
         </main>
       </div>

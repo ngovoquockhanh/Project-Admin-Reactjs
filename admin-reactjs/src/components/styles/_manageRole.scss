@@ -1,3 +1,9 @@
+.manage-role-container-function{
+  margin-right: 7%;
+}
+.manage-role-container-table{
+  width: 1060px;
+}
 .manage-role {
   position: relative;
   &-container {
@@ -25,7 +31,7 @@
         input {
           position: inherit;
           padding: 0 1.2rem;
-          width: 30rem;
+          width: 25rem;
           font-size: 1.6rem;
           font-weight: 400;
           line-height: 2.2rem;

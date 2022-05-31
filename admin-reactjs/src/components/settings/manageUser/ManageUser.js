@@ -2,7 +2,7 @@ import React from "react";
 import icondropdown from "../../../assets/images/icondropdown.png";
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusSquare } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Pagination } from "antd";
 
 const ManageUser = () => {
@@ -102,9 +102,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickUpdate(e)}>
+                    <NavLink to="/manage-user/userDetail">
                         Cập nhật
-                      </a>
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -133,7 +133,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -162,7 +164,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -191,7 +195,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -220,7 +226,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -249,7 +257,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -278,7 +288,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -307,7 +319,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -336,7 +350,9 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Cập nhật</a>
+                    <NavLink to="/manage-user/userDetail">
+                        Cập nhật
+                    </NavLink>
                     </td>
                   </tr>
                 </tbody>

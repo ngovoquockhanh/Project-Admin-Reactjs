@@ -1,4 +1,35 @@
+
 .addrole {
+  .all1{
+  
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 0;
+
+  }
+  .all{
+    width: 44px;
+    height: 24px;
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .name-all{
+    position: absolute;
+    width: 20px;
+    background: #4277FF;
+  }
   &-container {
     .title {
       @include text(2.4rem);

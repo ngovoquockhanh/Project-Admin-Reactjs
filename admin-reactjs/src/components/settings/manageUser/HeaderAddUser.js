@@ -16,7 +16,10 @@ const HeaderAddUser = () => {
                 padding: "0 1rem",
               }}
             />
+            <NavLink to="/manage-user">
             <span style={{ color: "#7e7d88" }}>Quản lý tài khoản</span>
+            </NavLink>
+
             <RightOutlined
               style={{
                 color: "#d4d4d7",

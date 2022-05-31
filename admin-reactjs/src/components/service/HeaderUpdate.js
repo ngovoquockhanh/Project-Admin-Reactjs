@@ -2,7 +2,8 @@ import imgnotify from "../../assets/images/iconnotify.png";
 import chandung from "../../assets/images/chandung.jpg";
 import { RightOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
-const HeaderService = () => {
+
+const HeaderServiceDetail = () => {
   return (
     <>
       <section className="headerdashboard" id="headerdashboard">
@@ -16,10 +17,17 @@ const HeaderService = () => {
                 padding: "0 1rem",
               }}
             />
-
+             <NavLink to='/service'>
             <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
-           
-          
+            </NavLink>
+            <RightOutlined
+              style={{
+                color: "#d4d4d7",
+                fontSize: "1.4rem",
+                padding: "0 1rem",
+              }}
+            />
+            <span style={{ color: "#ff9138" }}>Cập nhật </span>
           </h2>
         </div>
         <div className="headerdashboard-content">
@@ -38,4 +46,4 @@ const HeaderService = () => {
   );
 };
 
-export default HeaderService;
+export default HeaderServiceDetail;
