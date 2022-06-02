@@ -1,60 +1,40 @@
-import React from 'react'
-import './Forgotpassword.css'
 import logo from "../../assets/images/Logoalta.png";
-import imgIntro from "../../assets/images/intro.png";
-export default function Forgotpassword() {
+import forgotpass from "../../assets/images/forgotpass-intro.png";
+import { Link } from "react-router-dom";
+const ForgotPassword = () => {
   return (
-    <div className="container">
-  <div className="left">
-    <div className="logo">
-    <img src={logo} />
+    <>
+      <section className="forgotpassword" id="forgotpassword">
+        <div className="forgotpassword-main">
+          <div className="forgotpassword-main-box">
+            <img srcSet={logo} alt="" className="image" />
+            <div className="forgotpassword-main-box-group">
+              <h3 className="label-forgotpass">Đặt lại mật khẩu</h3>
+              <p className="sub-label">
+                Vui lòng nhập email để đặt lại mật khẩu của bạn *
+              </p>
+              <input type="text" className="input-forgotpassword" />
+            </div>
+            <div className="function">
+            <Link to="/login">
+              <button className="btn-cancel">
+             Hủy
+              </button>
+              </Link>
+              <Link to="/Resetnewpassword">
+              <button className="btn">
+               Tiếp tục
+              </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="forgotpassword-intro">
+          <img src={forgotpass} alt="" className="imageIntro" />
+        </div>
+      </section>
+    </>
+  );
+};
 
-      <div className="namelogin">
-      <p className='email'> Vui lòng nhập email để đặt lại mật khẩu của bạn*</p>
-        <input
-          className="inputpawword"
-          type="text"
-          placeholder="Nhập email"
-          name="emailInput"
-          id="emailInput"
-        />
-        <br />
-        <br />
-        <a href="Resetnewpassword">
-          <button
-            className="Continue"
-            classname="container-login100-form-btn"
-            type="button"
-            value="Tiếp Tục"
-          >
-            {" "}
-            <a className='Continue1'>Tiếp tục</a>  
-          </button>
-        </a>
-        <a href="login">
-          <button
-            className="huy"
-            classname="container-login100-form-btn"
-            type="button"
-            value="Tiếp Tục"
-          >
-            {" "}
-            <a className='Cancel'>Hủy</a> 
-          </button>
-        </a>
-      </div>
-      <div className="Forgotpassword">
-        <p>Đặt lại mật khẩu</p>
-      </div>
-    </div>
-  </div>
-  <div className="right">
-    <div className="logo1">
-    <img src={imgIntro} />
- 
-    </div>
-  </div>
-</div>
-
-  )
-}
+export default ForgotPassword;

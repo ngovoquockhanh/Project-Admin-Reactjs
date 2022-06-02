@@ -15,7 +15,10 @@ const Menubar = () => {
     <>
       <section className="menubar" id="menubar">
         <div className="menubar-main">
+          <NavLink to="/dashboard">
           <img src={logo} alt="" className="imgmenubar" />
+          </NavLink>
+
           <NavLink
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"

@@ -1,5 +1,5 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 import logo from "../../assets/images/Logoalta.png";
 import eyeClose from "../../assets/images/eye-close.png";
 import imgIntro from "../../assets/images/intro.png";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function index() {
   return (
     <>
-    <section className="login" id="login">
+      <section className="login" id="login">
         <div className="login-main">
           <div className="login-main-box">
             <img srcSet={logo} alt="" className="image" />
@@ -19,13 +19,12 @@ export default function index() {
               <h3 className="label">Mật khẩu *</h3>
               <input type="password" className="input-login" />
               <img src={eyeClose} alt="" className="icon" />
+              <Link to="/Forgotpassword" className="forgotpass">
+                Quên mật khẩu?
+              </Link>
             </div>
-            <button className="btn">
-              <Link to="/Menu">Đăng nhập</Link>
-            </button>
-
-            <Link to="/Forgotpassword" className="forgotpass">
-              Quên mật khẩu?
+            <Link to="/Menu">
+              <button className="btn">Đăng Nhập</button>
             </Link>
           </div>
         </div>
@@ -36,6 +35,5 @@ export default function index() {
         </div>
       </section>
     </>
-  
-  )
+  );
 }

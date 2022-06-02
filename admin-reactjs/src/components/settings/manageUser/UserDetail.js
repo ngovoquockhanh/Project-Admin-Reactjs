@@ -88,7 +88,7 @@ const AddUser = () => {
             <button className="btn-cancel">Hủy bỏ</button>
             </NavLink>
             <NavLink to="/manage-user">
-            <button className="btn">Thêm</button>
+            <button className="btn">Cập nhật</button>
             </NavLink>
 
           </div>

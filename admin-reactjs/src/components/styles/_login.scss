@@ -1,5 +1,6 @@
 .login {
   display: flex;
+  
   &-main {
     width: 60rem;
     background-color: $bg-gray;
@@ -25,7 +26,7 @@
         }
         .icon {
           position: absolute;
-          top: 4rem;
+          top: 5rem;
           right: 2.5rem;
           width: 1.7rem;
           height: 1.7rem;
@@ -33,17 +34,21 @@
         }
       }
       .btn {
-        margin: 3.2rem auto 0;
+        margin-top: 10px;
+        margin-left: 30%;
+
         a {
           color: $white;
         }
       }
       .forgotpass {
+
         font-size: 1.4rem;
         line-height: 2rem;
         color: $red;
-        margin: 0.8rem auto 0;
+    
         line-height: 2.5rem;
+        margin-right: 70%;
       }
     }
   }

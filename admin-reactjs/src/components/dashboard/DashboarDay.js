@@ -17,7 +17,7 @@ const DashboardDay = () => {
             </div>
             <div className="header-followday">
               <span>Xem theo</span>
-              <img src={icondropdown} alt="" className="dropdw" />
+
               <select
                 id="cars"
                 className="dropdown"

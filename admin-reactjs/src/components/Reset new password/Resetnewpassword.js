@@ -1,62 +1,46 @@
-import React from 'react'
-import './Resetnewpassword.css'
 import logo from "../../assets/images/Logoalta.png";
-import imgIntro from "../../assets/images/intro.png";
-export default function Resetnewpassword() {
+import imgIntro from "../../assets/images/forgotpass-intro.png";
+import eyeClose from "../../assets/images/eye-close.png";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+const ResetPassword = () => {
+  let navigate = useNavigate();
+  const handleClick = (e) => {
+    e.preventDefault();
+    navigate("/");
+  };
+
   return (
-    <div className="container">
-  <div className="left">
-    <div className="logo">
-    <img src={logo} />
+    <>
+      <section className="resetpassword" id="resetpassword">
+        <div className="resetpassword-main">
+          <div className="resetpassword-main-box">
+            <img srcSet={logo} alt="" className="image" />
+            <h3 className="label-resetpass">Đặt lại mật khẩu mới</h3>
+            <div className="resetpassword-main-box-group">
+              <h3 className="label">Mật khẩu</h3>
+              <input type="password" className="input-resetpassword" />
+              <img src={eyeClose} alt="" className="icon" />
+            </div>
+            <div className="resetpassword-main-box-group">
+              <h3 className="label">Nhập lại mật khẩu</h3>
+              <input type="password" className="input-resetpassword" />
+              <img src={eyeClose} alt="" className="icon" />
+            </div>
+            <Link to="/login">      
+            <button className="btn" >
+              Xác nhận
+            </button>
+            </Link>
+          </div>
+        </div>
+        <div className="resetpassword-intro">
+          <img src={imgIntro} alt="" className="imageIntro" />
+        </div>
+      </section>
+    </>
+  );
+};
 
-      <div className="namelogin">
-      <p>Mật Khẩu*</p>
-      <input
-            className="inputpawword"
-            type="password"
-            id="pwd"
-            name="pwd"
-            minLength={8}
-          />
-          <br/>
-          <br />
-     
-          <p className='pwnew'> Nhập lại mật khẩu*</p>
-            <input
-            
-            className="inputpawword"
-            type="password"
-            id="pwd"
-            name="pwd"
-            minLength={8}
-          />
-        <br />
-        <br />
-        <a href="login">
-          <button
-            className="Confirm"
-            classname="container-login100-form-btn"
-            type="button"
-            value="Xác nhận"
-          >
-            {" "}
-            <a className='Confirm1'>Xác Nhậc</a>  
-          </button>
-        </a>
-
-      </div>
-      <div className="newpawr">
-        <p>Đặt lại mật khẩu</p>
-      </div>
-    </div>
-  </div>
-  <div className="right">
-    <div className="logo1">
-    <img src={imgIntro} />
- 
-    </div>
-  </div>
-</div>
-
-  )
-}
+export default ResetPassword;

@@ -2,7 +2,90 @@
 .headerdashboard {
 
   display: flex;
-
+  .Notify{
+    position: absolute;
+  width: 360px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  background: #FF9138;
+  }
+  .Notify-1{
+    position: absolute;
+  width: 101px;
+  height: 30px;
+  left: 24px;
+  top: 9px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  }
+  .Notify-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 400px;
+    left: 0px;
+    top: 48px;
+    background: #FFFFFF;
+  
+  }
+  .Line{
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  .Line-1{
+  
+    margin-left: 5%;
+  }
+  .user-name-1{
+  
+    width: 268px;
+    height: 24px;
+    margin-left: 24px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BF5805;
+  }
+  .time-number-1{
+  
+  width: 313px;
+  height: 24px;
+  margin-left: 24px;
+  top: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #535261;
+  }
+  .time-number{
+    position: absolute;
+  width: 313px;
+  height: 24px;
+  left: 24px;
+  top: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #535261;
+  }
+  .user-name{
+    position: absolute;
+  width: 268px;
+  height: 24px;
+  left: 24px;
+  top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BF5805;
+  }
   justify-content: space-between;
   &-main {
     h2 {
@@ -23,7 +106,15 @@
       max-width: 3.2rem;
       max-height: 3.2rem;
       object-fit: cover;
-      margin-left: 55%;
+  margin-right: 500px;
+    }
+    .imgnotify-1{
+      width: 100%;
+      height: 100%;
+      max-width: 3.2rem;
+      max-height: 3.2rem;
+      object-fit: cover;
+  margin-right: 400px; 
     }
     &-box {
       display: flex;

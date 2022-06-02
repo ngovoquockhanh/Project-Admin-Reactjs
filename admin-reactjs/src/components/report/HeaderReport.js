@@ -10,7 +10,7 @@ const HeaderReport = () => {
         </div>
         <a className="profile-pic" href="/user">
       <div className="headerdashboard-content">
-        <img src={imgnotify} alt="" className="imgnotify" />
+        <img src={imgnotify} alt="" className="imgnotify-1" />
         <div className="headerdashboard-content-box">
           <img src={chandung} alt="" className="imguser" />
           <div className="infomation">
