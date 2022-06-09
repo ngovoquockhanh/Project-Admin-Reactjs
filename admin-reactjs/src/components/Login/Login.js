@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+
 import logo from "../../assets/images/Logoalta.png";
 import eyeClose from "../../assets/images/eye-close.png";
 import imgIntro from "../../assets/images/intro.png";
@@ -17,7 +17,7 @@ const Index = () => {
 
   const signIn = (e) =>  {
     console.log(e)
-    if (email == "" && password == "") {
+    if (email == "" && password =="") {
       swal.fire({
           title: "",
           text: "Bạn chưa điền đầy đủ thông tin đăng nhập...",
@@ -27,8 +27,9 @@ const Index = () => {
           
         });
     }else{
-      window.location = "/menu";
-      return true;
+      e.preventDefault();
+      navigate("/menu");
+
     }
   }
  
@@ -42,12 +43,12 @@ const Index = () => {
             <img srcSet={logo} alt="" className="image" />
             <div className="login-main-box-group">
               <h3 className="label">Tên đăng nhập *</h3>
-              <input type="text " value={email} onChange={(e) => {setEmail(e.target.value)}}  className="input-login"  id="email"/>
+              <input type="text " value={email} onChange={(e) => {setEmail(e.target.value)}}  className="input-login" id="email"  />
 
             </div>
             <div className="login-main-box-group">
               <h3 className="label">Mật khẩu *</h3>
-              <input type={showPass}  className="input-login" value={password} onChange={(e) => {setPassword(e.target.value)}} id="password"/>
+              <input type={showPass}  className="input-login" value={password} onChange={(e) => {setPassword(e.target.value)}} id="password" />
               <img src={eyeClose} alt="" className="icon" onClick={() =>{showPass === 'password' ? setShowPass('text'): setShowPass('password')}}/>
               <Link to="/Forgotpassword" className="forgotpass">
                 Quên mật khẩu?
