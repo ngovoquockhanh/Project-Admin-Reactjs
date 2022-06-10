@@ -31,32 +31,30 @@ const AddRole = () => {
                   </h5>
                   <form action="">
                     <label htmlFor="">Nhóm chức năng A</label>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all">Tất cả</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng X</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng Y</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng Z</span>         
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all">Tất cả</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng X</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng Y</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng Z</span>
                     <label htmlFor="">Nhóm chức năng B</label>
-                    <input type="checkbox" id="" className="name-all"/>
-                      <span className="all">Tất cả</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng X</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng Y</span>
-                      <input type="checkbox" id="" className="name-all"/>
-                      <span className="all1">Chức năng Z</span>     
-                 
-                    
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all">Tất cả</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng X</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng Y</span>
+                    <input type="checkbox" id="" className="name-all" />
+                    <span className="all1">Chức năng Z</span>
                   </form>
                 </div>
               </div>
             </div>
           </div>
           <div className="function">
-          <NavLink to="/manage-role">
+            <NavLink to="/manage-role">
               <button className="btn-cancel">Hủy bỏ</button>
             </NavLink>
             <NavLink to="/manage-role">

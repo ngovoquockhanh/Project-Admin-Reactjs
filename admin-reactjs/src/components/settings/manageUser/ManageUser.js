@@ -102,9 +102,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -133,9 +131,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -164,9 +160,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -195,9 +189,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -226,9 +218,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -257,9 +247,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -288,9 +276,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -319,9 +305,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -350,9 +334,7 @@ const ManageUser = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                    <NavLink to="/manage-user/userDetail">
-                        Cập nhật
-                    </NavLink>
+                      <NavLink to="/manage-user/userDetail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>

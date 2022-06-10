@@ -72,12 +72,11 @@ const AddService = () => {
           </div>
           <div className="function">
             <NavLink to="/service">
-            <button className="btn-cancel">Hủy bỏ</button>
+              <button className="btn-cancel">Hủy bỏ</button>
             </NavLink>
-          <NavLink to="/service">
-          <button className="btn">Thêm dịch vụ</button>
-          </NavLink>
-    
+            <NavLink to="/service">
+              <button className="btn">Thêm dịch vụ</button>
+            </NavLink>
           </div>
         </div>
       </section>

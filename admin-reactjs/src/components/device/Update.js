@@ -71,24 +71,24 @@ const ManageDevice = () => {
                 </h5>
                 <div id="example1">
                   <a className="Exploring">
-             <p className="Exploring1">Khám tim mạch</p>
-             <img src={exit} alt="" className="exit" />
+                    <p className="Exploring1">Khám tim mạch</p>
+                    <img src={exit} alt="" className="exit" />
                   </a>
                   <a className="extra">
-             <p className="extra1">Khám sản phụ khoa</p>
-             <img src={exit} alt="" className="exit" />
+                    <p className="extra1">Khám sản phụ khoa</p>
+                    <img src={exit} alt="" className="exit" />
                   </a>
                   <a className="visit">
-             <p className="visit1">Khám răng hàm mặc</p>
-             <img src={exit} alt="" className="exit" />
+                    <p className="visit1">Khám răng hàm mặc</p>
+                    <img src={exit} alt="" className="exit" />
                   </a>
                   <a className="ears">
-             <p className="ears1">Khám tai mũi họng</p>
-             <img src={exit} alt="" className="exit" />
+                    <p className="ears1">Khám tai mũi họng</p>
+                    <img src={exit} alt="" className="exit" />
                   </a>
                   <a className="shout">
-             <p className="shout1">Khám hô hấp </p>
-             <img src={exit} alt="" className="exit" />
+                    <p className="shout1">Khám hô hấp </p>
+                    <img src={exit} alt="" className="exit" />
                   </a>
                 </div>
               </div>

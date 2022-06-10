@@ -16,9 +16,8 @@ const HeaderManageDevice = () => {
                 padding: "0 1rem",
               }}
             />
-           <NavLink to="/device"
-            exact="true" >
-            <span style={{ color: "#7e7d88" }}>Danh sách thiết bị</span>
+            <NavLink to="/device" exact="true">
+              <span style={{ color: "#7e7d88" }}>Danh sách thiết bị</span>
             </NavLink>
             <RightOutlined
               style={{
@@ -30,19 +29,20 @@ const HeaderManageDevice = () => {
             <span style={{ color: "#ff9138" }}>Thêm thiết bị</span>
           </h2>
         </div>
-        <NavLink className="profile-pic"   to="/user"
-            exact="true">
-      <div className="headerdashboard-content">
-        <img src={imgnotify} alt="" className="imgnotify" />
-        <div className="headerdashboard-content-box">
-          <img src={chandung} alt="" className="imguser" />
-          <div className="infomation">
-            <h3 className="sub-label">Xin chào</h3>
-            <h4 className="label">Ngô Võ Quốc Khánh</h4>
-          </div>
+        <div className="headerdashboard-content">
+          <img src={imgnotify} alt="" className="imgnotify" />
+          <NavLink
+            className="headerdashboard-content-box"
+            to="/user"
+            exact="true"
+          >
+            <img src={chandung} alt="" className="imguser" />
+            <div className="infomation">
+              <h3 className="sub-label">Xin chào</h3>
+              <h4 className="label">Ngô Võ Quốc Khánh</h4>
+            </div>
+          </NavLink>
         </div>
-      </div>
-      </NavLink >
       </section>
     </>
   );

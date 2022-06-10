@@ -16,9 +16,9 @@ const HeaderAddRole = () => {
                 padding: "0 1rem",
               }}
             />
-      <NavLink to="/manage-role">
-            <span style={{ color: "#7e7d88" }}>Quản lý vai trò</span>
-                </NavLink>
+            <NavLink to="/manage-role">
+              <span style={{ color: "#7e7d88" }}>Quản lý vai trò</span>
+            </NavLink>
             <RightOutlined
               style={{
                 color: "#d4d4d7",
@@ -30,16 +30,19 @@ const HeaderAddRole = () => {
           </h2>
         </div>
         <div className="headerdashboard-content">
-        <img src={imgnotify} alt="" className="imgnotify" />
-        <NavLink className="headerdashboard-content-box"  to="/user"
-            exact="true">
-          <img src={chandung} alt="" className="imguser" />
-          <div className="infomation">
-            <h3 className="sub-label">Xin chào</h3>
-            <h4 className="label">Ngô Võ Quốc Khánh</h4>
-          </div>
-          </NavLink >
-      </div>
+          <img src={imgnotify} alt="" className="imgnotify" />
+          <NavLink
+            className="headerdashboard-content-box"
+            to="/user"
+            exact="true"
+          >
+            <img src={chandung} alt="" className="imguser" />
+            <div className="infomation">
+              <h3 className="sub-label">Xin chào</h3>
+              <h4 className="label">Ngô Võ Quốc Khánh</h4>
+            </div>
+          </NavLink>
+        </div>
       </section>
     </>
   );

@@ -24,17 +24,33 @@ const ResetPassword = () => {
             <div className="resetpassword-main-box-group">
               <h3 className="label">Mật khẩu</h3>
               <input type={showPass} className="input-resetpassword" />
-              <img src={eyeClose} alt="" className="icon" onClick={() =>{showPass === 'password' ? setShowPass('text'): setShowPass('password')}}/>
+              <img
+                src={eyeClose}
+                alt=""
+                className="icon"
+                onClick={() => {
+                  showPass === "password"
+                    ? setShowPass("text")
+                    : setShowPass("password");
+                }}
+              />
             </div>
             <div className="resetpassword-main-box-group">
               <h3 className="label">Nhập lại mật khẩu</h3>
               <input type={showPass1} className="input-resetpassword" />
-              <img src={eyeClose} alt="" className="icon" onClick={() =>{showPass1 === 'password' ? setShowPass1('text'): setShowPass1('password')}}/>
+              <img
+                src={eyeClose}
+                alt=""
+                className="icon"
+                onClick={() => {
+                  showPass1 === "password"
+                    ? setShowPass1("text")
+                    : setShowPass1("password");
+                }}
+              />
             </div>
-            <Link to="/login">      
-            <button className="btn" >
-              Xác nhận
-            </button>
+            <Link to="/login">
+              <button className="btn">Xác nhận</button>
             </Link>
           </div>
         </div>

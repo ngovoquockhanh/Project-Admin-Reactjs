@@ -3,21 +3,17 @@ import imgchart from "../../assets/images/imgchart.png";
 
 import iconselect from "../../assets/images/iconselect.png";
 import { useState } from "react";
- 
+
 const DashboardDay = () => {
- const [option, setOptions] = useState('day');
+  const [option, setOptions] = useState("day");
   return (
     <>
-
-    <section className="dashboardDay">
-
+      <section className="dashboardDay">
         <div className="dashboardDay-container">
           <div className="dashboardDay-container-header">
-            <div className="header-title">
-            </div>
+            <div className="header-title"></div>
             <div className="header-followday">
               <span>Xem theo</span>
-
               <select
                 id="cars"
                 className="dropdown"
@@ -36,11 +32,10 @@ const DashboardDay = () => {
                 </option>
               </select>
             </div>
-   
           </div>
           {option === "day" && (
             <div className="dashboardDay-container-content">
-            <p className="statistics" >Bảng thống kê theo Ngày</p>
+              <p className="statistics">Bảng thống kê theo Ngày</p>
               <p>Tháng 11/2021</p>
               <div className="dashboardDay-container-content-box">
                 <p>6000</p>
@@ -80,11 +75,11 @@ const DashboardDay = () => {
                 <h6>ngày</h6>
               </div>
             </div>
-                  )}  
-            
-            {option === "week" && (
+          )}
+
+          {option === "week" && (
             <div className="dashboardDay-container-content">
-            <p className="statistics" >Bảng thống kê theo Tuần</p>
+              <p className="statistics">Bảng thống kê theo Tuần</p>
               <p>Tháng 11/2021</p>
               <div className="dashboardDay-container-content-box">
                 <p>6000</p>
@@ -113,7 +108,6 @@ const DashboardDay = () => {
                 <img src={iconselect} alt="" className="iconselect" />
               </div>
               <div className="dashboardDay-container-content-subbox">
-          
                 <p className="col1">Tuần 1</p>
                 <p className="col2">Tuần 2</p>
                 <p className="col3">Tuần 3</p>
@@ -125,10 +119,10 @@ const DashboardDay = () => {
                 <h6>Tuần</h6>
               </div>
             </div>
-                  )}  
-                   {option === "month" && (
+          )}
+          {option === "month" && (
             <div className="dashboardDay-container-content">
-            <p className="statistics" >Bảng thống kê theo Tháng</p>
+              <p className="statistics">Bảng thống kê theo Tháng</p>
               <p>Năm 2021</p>
               <div className="dashboardDay-container-content-box">
                 <p>6000</p>
@@ -172,12 +166,9 @@ const DashboardDay = () => {
                 <h6>ngày</h6>
               </div>
             </div>
-                  )}  
+          )}
         </div>
       </section>
-
-
-           
     </>
   );
 };

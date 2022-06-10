@@ -16,7 +16,7 @@ const Menubar = () => {
       <section className="menubar" id="menubar">
         <div className="menubar-main">
           <NavLink to="/dashboard">
-          <img src={logo} alt="" className="imgmenubar" />
+            <img src={logo} alt="" className="imgmenubar" />
           </NavLink>
 
           <NavLink
@@ -124,8 +124,6 @@ const Menubar = () => {
             <img src={iconexit} alt="" className="iconexit" />
             Đăng xuất
           </NavLink>
-
-        
         </div>
       </section>
     </>

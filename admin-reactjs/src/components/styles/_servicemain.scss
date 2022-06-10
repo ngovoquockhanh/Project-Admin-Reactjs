@@ -1,8 +1,8 @@
 .servicemain {
-  .servicemain-container-box{
- margin-right: -1%;
+  .servicemain-container-box {
+    margin-right: -1%;
   }
-  .servicemain-container-table{
+  .servicemain-container-table {
     width: 1060px;
   }
   position: relative;
@@ -90,9 +90,8 @@
         color: $gray-400;
         cursor: pointer;
       }
-     
-      .search {
 
+      .search {
         position: relative;
         input {
           position: inherit;

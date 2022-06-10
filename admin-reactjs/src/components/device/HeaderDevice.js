@@ -17,79 +17,25 @@ const HeaderDevice = () => {
                 padding: "0 1rem",
               }}
             />
-        <NavLink  to="/device"
-            exact="true" >
-      <span>Danh sách thiết bị</span>
-  </NavLink>
-
+            <NavLink to="/device" exact="true">
+              <span>Danh sách thiết bị</span>
+            </NavLink>
           </h2>
         </div>
-      
-      <div className="headerdashboard-content">
-         <div className="manageDevice-container-main-box">
-              <div className="dropdown">
-                <img src={imgnotify} alt="" className="imgnotify" />
-                <div className="dropdown-list">
-                  <div className="Notify">
-                    <h5 className="Notify-1">Thông báo</h5>
-                  </div>
-                  <div className="Notify-2">
-                    <h5 className="user-name">
-                      Người dùng : Nguyễn Thị Thùy Dung
-                    </h5>
-                    <h5 className="time-number">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line" />
-                    <h5 className="user-name-1">
-                      Người dùng : Nguyễn Thiên Chính
-                    </h5>
-                    <h5 className="time-number-1">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line-1" />
-                    <h5 className="user-name-1">
-                      Người dùng : Võ Thị Kim Liên
-                    </h5>
-                    <h5 className="time-number-1">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line-1" />
-                    <h5 className="user-name-1">
-                      Người dùng : Nguyễn Quốc Huy
-                    </h5>
-                    <h5 className="time-number-1">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line-1" />
-                    <h5 className="user-name-1">
-                      Người dùng : Võ Lan Anh
-                    </h5>
-                    <h5 className="time-number-1">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line-1" />
-                    <h5 className="user-name-1">
-                      Người dùng : Nguyễn Trúc Anh
-                    </h5>
-                    <h5 className="time-number-1">
-                      Thời gian nhận số : 12h20 ngày 31/12/2021
-                    </h5>
-                    <img src={Line} alt="" className="Line-1" />
-                  </div>
-                </div>
-              </div>
+        <div className="headerdashboard-content">
+          <img src={imgnotify} alt="" className="imgnotify" />
+          <NavLink
+            className="headerdashboard-content-box"
+            to="/user"
+            exact="true"
+          >
+            <img src={chandung} alt="" className="imguser" />
+            <div className="infomation">
+              <h3 className="sub-label">Xin chào</h3>
+              <h4 className="label">Ngô Võ Quốc Khánh</h4>
             </div>
-        <NavLink className="headerdashboard-content-box"  to="/user"
-            exact="true">
-          <img src={chandung} alt="" className="imguser" />
-          <div className="infomation">
-            <h3 className="sub-label">Xin chào</h3>
-            <h4 className="label">Ngô Võ Quốc Khánh</h4>
-          </div>
-          </NavLink >
-      </div>
-     
+          </NavLink>
+        </div>
       </section>
     </>
   );

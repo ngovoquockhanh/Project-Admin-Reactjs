@@ -1,6 +1,6 @@
 .login {
   display: flex;
-  
+
   &-main {
     width: 60rem;
     background-color: $bg-gray;
@@ -42,11 +42,10 @@
         }
       }
       .forgotpass {
-
         font-size: 1.4rem;
         line-height: 2rem;
         color: $red;
-    
+
         line-height: 2.5rem;
         margin-right: 70%;
       }

@@ -4,13 +4,10 @@ import chandung from "../../assets/images/chandung.jpg";
 const HeaderDashboard = () => {
   return (
     <>
-    <section className="headerdashboard" id="headerdashboard">
-      <div className="headerdashboard-main">
- 
-      </div>
-     
-    </section>
-  </>
+      <section className="headerdashboard" id="headerdashboard">
+        <div className="headerdashboard-main"></div>
+      </section>
+    </>
   );
 };
 

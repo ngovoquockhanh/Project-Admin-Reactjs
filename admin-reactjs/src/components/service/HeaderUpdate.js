@@ -17,8 +17,8 @@ const HeaderServiceDetail = () => {
                 padding: "0 1rem",
               }}
             />
-             <NavLink to='/service'>
-            <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
+            <NavLink to="/service">
+              <span style={{ color: "#ff9138" }}>Danh sách dịch vụ</span>
             </NavLink>
             <RightOutlined
               style={{
@@ -31,16 +31,19 @@ const HeaderServiceDetail = () => {
           </h2>
         </div>
         <div className="headerdashboard-content">
-        <img src={imgnotify} alt="" className="imgnotify" />
-        <NavLink className="headerdashboard-content-box"  to="/user"
-            exact="true">
-          <img src={chandung} alt="" className="imguser" />
-          <div className="infomation">
-            <h3 className="sub-label">Xin chào</h3>
-            <h4 className="label">Ngô Võ Quốc Khánh</h4>
-          </div>
-          </NavLink >
-      </div>
+          <img src={imgnotify} alt="" className="imgnotify" />
+          <NavLink
+            className="headerdashboard-content-box"
+            to="/user"
+            exact="true"
+          >
+            <img src={chandung} alt="" className="imguser" />
+            <div className="infomation">
+              <h3 className="sub-label">Xin chào</h3>
+              <h4 className="label">Ngô Võ Quốc Khánh</h4>
+            </div>
+          </NavLink>
+        </div>
       </section>
     </>
   );

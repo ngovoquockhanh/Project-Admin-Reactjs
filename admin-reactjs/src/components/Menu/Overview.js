@@ -54,9 +54,7 @@ const OverView = () => {
                       Thời gian nhận số : 12h20 ngày 31/12/2021
                     </h5>
                     <img src={Line} alt="" className="Line-1" />
-                    <h5 className="user-name-1">
-                      Người dùng : Võ Lan Anh
-                    </h5>
+                    <h5 className="user-name-1">Người dùng : Võ Lan Anh</h5>
                     <h5 className="time-number-1">
                       Thời gian nhận số : 12h20 ngày 31/12/2021
                     </h5>

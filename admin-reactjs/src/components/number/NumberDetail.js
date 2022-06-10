@@ -1,4 +1,4 @@
-import Out from "../../assets/images/out.png"
+import Out from "../../assets/images/out.png";
 import { useNavigate } from "react-router-dom";
 import { Link, NavLink } from "react-router-dom";
 const DeviceDetail = () => {
@@ -57,7 +57,7 @@ const DeviceDetail = () => {
           <div className="deviceDetail-container-function">
             <NavLink to="/number" exact="true">
               <button className="btn-update">
-                <img src={Out}/>
+                <img src={Out} />
                 Cập nhật <br /> thiết bị
               </button>
             </NavLink>

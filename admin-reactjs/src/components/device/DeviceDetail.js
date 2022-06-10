@@ -50,14 +50,12 @@ const DeviceDetail = () => {
             </div>
           </div>
           <div className="deviceDetail-container-function">
-<NavLink to="/device/Update"
-            exact="true">
-<button className="btn-update" >
-              <MdModeEditOutline />
-              Cập nhật <br /> thiết bị
-            </button>
-</NavLink>
-            
+            <NavLink to="/device/Update" exact="true">
+              <button className="btn-update">
+                <MdModeEditOutline />
+                Cập nhật <br /> thiết bị
+              </button>
+            </NavLink>
           </div>
         </div>
       </section>

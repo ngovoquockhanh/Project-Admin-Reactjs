@@ -61,10 +61,7 @@ const SettingMain = () => {
                   </tr>
                   <tr className="col4">
                     <td>
-                      <NavLink to="/manage-role/detail">
-                      Cập nhật
-                      </NavLink>
- 
+                      <NavLink to="/manage-role/detail">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>

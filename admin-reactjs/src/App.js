@@ -1,11 +1,11 @@
 import "./components/styles/app.scss";
-import Login from './components/Login/Login';
-import Forgotpassword from './components/Forgotpassword/Forgotpassword';
-import Resetnewpassword from './components/Reset new password/Resetnewpassword';
+import Login from "./components/Login/Login";
+import Forgotpassword from "./components/Forgotpassword/Forgotpassword";
+import Resetnewpassword from "./components/Reset new password/Resetnewpassword";
 import DashboardPage from "./components/views/DashboardPage";
 import HomePage from "./components/views/HomePage";
 import DevicePage from "./components/views/DevicePage";
-import Menu from './components/Menu/Menu';
+import Menu from "./components/Menu/Menu";
 import DeviceDetailPage from "./components/views/DeviceDetailPage";
 import ServicePage from "./components/views/ServicePage";
 import AddServicePage from "./components/views/AddServicePage";
@@ -25,7 +25,6 @@ import AddNewNumberPage from "./components/views/AddNewNumberPage";
 import UserDetail from "./components/views/UserDetail";
 import RoleDetail from "./components/views/RoleDetail";
 import { Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (

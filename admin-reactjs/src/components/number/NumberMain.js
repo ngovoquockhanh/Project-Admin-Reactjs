@@ -175,10 +175,7 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
-              
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -209,9 +206,7 @@ const NumberMain = () => {
                     <td>Kiosk</td>
                   </tr>
                   <tr className="col8">
-                  <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                    <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                   </tr>
                 </tbody>
                 <tbody>
@@ -241,9 +236,7 @@ const NumberMain = () => {
                     <td>Kiosk</td>
                   </tr>
                   <tr className="col8">
-                  <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                    <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                   </tr>
                 </tbody>
                 <tbody className="active">
@@ -274,78 +267,7 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
-                    </td>
-              
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="red">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody className="active">
-                  <tr className="col1">
-                    <td>2010001</td>
-                  </tr>
-                  <tr className="col2">
-                    <td>Lê Huỳnh Ái Vân</td>
-                  </tr>
-                  <tr className="col3">
-                    <td>Khám tim mạch</td>
-                  </tr>
-                  <tr className="col4">
-                    <td>14:35 - 07/11/2021</td>
-                  </tr>
-                  <tr className="col5">
-                    <td>14:35 - 12/11/2021</td>
-                  </tr>
-                  <tr className="col6">
-                    <td>
-                      <li className="green">
-                        <span>Đang chờ</span>
-                      </li>
-                    </td>
-                  </tr>
-                  <tr className="col7">
-                    <td>Kiosk</td>
-                  </tr>
-                  <tr className="col8">
-                    <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -377,9 +299,7 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -411,9 +331,7 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -445,9 +363,71 @@ const NumberMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/number/numberDetail">
-                      Chi tiết
-                      </NavLink>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody className="active">
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="green">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                    <td>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr className="col1">
+                    <td>2010001</td>
+                  </tr>
+                  <tr className="col2">
+                    <td>Lê Huỳnh Ái Vân</td>
+                  </tr>
+                  <tr className="col3">
+                    <td>Khám tim mạch</td>
+                  </tr>
+                  <tr className="col4">
+                    <td>14:35 - 07/11/2021</td>
+                  </tr>
+                  <tr className="col5">
+                    <td>14:35 - 12/11/2021</td>
+                  </tr>
+                  <tr className="col6">
+                    <td>
+                      <li className="red">
+                        <span>Đang chờ</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr className="col7">
+                    <td>Kiosk</td>
+                  </tr>
+                  <tr className="col8">
+                    <td>
+                      <NavLink to="/number/numberDetail">Chi tiết</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -456,12 +436,11 @@ const NumberMain = () => {
           </div>
           <div className="numbermain-container-function">
             <NavLink to="/number/add">
-            <button className="btn-add" >
-              <AiFillPlusSquare />
-              Cấp <br /> số mới
-            </button>
+              <button className="btn-add">
+                <AiFillPlusSquare />
+                Cấp <br /> số mới
+              </button>
             </NavLink>
-          
           </div>
           <div className="numbermain-container-pagination">
             <Pagination defaultCurrent={1} total={100} />

@@ -66,11 +66,11 @@ const ManageDevice = () => {
               <h3 className="sub-note">Là trường thông tin bắt buộc</h3>
             </div>
           </div>
-          <NavLink to='/device' exact='true'>
-          <div className="function">
-            <button className="btn-cancel">Hủy bỏ</button>
-            <button className="btn">Thêm thiết bị</button>
-          </div>
+          <NavLink to="/device" exact="true">
+            <div className="function">
+              <button className="btn-cancel">Hủy bỏ</button>
+              <button className="btn">Thêm thiết bị</button>
+            </div>
           </NavLink>
         </div>
       </section>

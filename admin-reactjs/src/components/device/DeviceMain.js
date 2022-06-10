@@ -11,7 +11,6 @@ const DeviceMain = () => {
     e.preventDefault();
     navigate("/device/manage");
   };
-
   const handleClickDetail = (e) => {
     e.preventDefault();
     navigate("/device/detail");
@@ -20,7 +19,6 @@ const DeviceMain = () => {
     <>
       <section className="devicemain">
         <div className="devicemain-container">
-          
           <h2 className="title">Danh sách thiết bị</h2>
           <div className="flex-box">
             <div className="devicemain-container-box">
@@ -133,9 +131,8 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -172,14 +169,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -216,14 +214,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -260,16 +259,16 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
-
                     </td>
                   </tr>
                 </tbody>
@@ -305,14 +304,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                         <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -349,14 +349,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -393,13 +394,16 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
-                    <td>    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                    <td>
+                      {" "}
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -436,14 +440,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>
@@ -480,14 +485,15 @@ const DeviceMain = () => {
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="">Chi tiết</a>
+                      <a href="" onClick={(e) => handleClickDetail(e)}>
+                        Chi tiết
+                      </a>
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                    <NavLink to="/device/Update"
-            exact="true">
-                     Cập nhật
+                      <NavLink to="/device/Update" exact="true">
+                        Cập nhật
                       </NavLink>
                     </td>
                   </tr>

@@ -13,18 +13,14 @@ const ForgotPassword = () => {
               <p className="sub-label">
                 Vui lòng nhập email để đặt lại mật khẩu của bạn *
               </p>
-              <input type="text" className="input-forgotpassword" />
+              <input type="text" className="input-forgotpassword" id="email" />
             </div>
             <div className="function">
-            <Link to="/login">
-              <button className="btn-cancel">
-             Hủy
-              </button>
+              <Link to="/login">
+                <button className="btn-cancel">Hủy</button>
               </Link>
               <Link to="/Resetnewpassword">
-              <button className="btn">
-               Tiếp tục
-              </button>
+                <button className="btn">Tiếp tục</button>
               </Link>
             </div>
           </div>

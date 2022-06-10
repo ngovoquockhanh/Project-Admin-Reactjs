@@ -167,7 +167,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -197,7 +197,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -227,7 +227,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -257,7 +257,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -287,7 +287,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -317,7 +317,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -347,7 +347,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
@@ -377,7 +377,7 @@ const ServiceMain = () => {
                   </tr>
                   <tr className="col6">
                     <td>
-                    <NavLink to="/service/updateService">Cập nhật</NavLink>
+                      <NavLink to="/service/updateService">Cập nhật</NavLink>
                     </td>
                   </tr>
                 </tbody>
