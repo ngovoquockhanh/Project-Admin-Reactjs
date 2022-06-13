@@ -41,6 +41,33 @@ input {
   font-size: 1.8rem;
   color: $gray-400;
   font-family: $font-family;
+
+}
+.input-login{
+  position: relative;
+  padding: 1rem;
+  width: 40rem;
+  height: 4.4rem;
+  background: #ffffff;
+  border: 0.15rem solid #d4d4d7;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  color: $gray-400;
+  font-family: $font-family;
+  margin-left: -20%;
+}
+.input-resetpassword{
+  position: relative;
+  padding: 1rem;
+  width: 40rem;
+  height: 4.4rem;
+  background: #ffffff;
+  border: 0.15rem solid #d4d4d7;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  color: $gray-400;
+  font-family: $font-family;
+  margin-left: -20%;
 }
 
 .btn {
@@ -72,6 +99,23 @@ input {
   border-radius: 0.8rem;
   filter: drop-shadow(0 0 0.6rem #e7e9f2);
   cursor: pointer;
+
+}
+.btn-cancel-1{
+  width: 16.2rem;
+  height: 4rem;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $orange-400;
+  background-color: $white;
+  border: 0.1rem solid $orange-400;
+  border-radius: 0.8rem;
+  filter: drop-shadow(0 0 0.6rem #e7e9f2);
+  cursor: pointer;
+  margin-left: -40%;
 }
 
 .main-wrap {
